@@ -2,7 +2,7 @@
 
 [npm package](https://www.npmjs.com/package/tiptap-extension-majestic-image)
 
-```ts
+```js
 import tiptapImageExtension from 'tiptap-extension-majestic-image'
 
 const editor = ref()
