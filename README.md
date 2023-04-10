@@ -1,4 +1,4 @@
-# Vk video extension for TipTap and Vue
+# Image extension for tiptap & majestic-ui
 
 [npm package](https://www.npmjs.com/package/tiptap-extension-majestic-image)
 
