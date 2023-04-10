@@ -1,0 +1,29 @@
+{
+	"name": "tiptap-extension-majestic-image",
+	"description": "image extension for tiptap & majestic-ui",
+	"version": "1.0.0",
+	"keywords": [
+		"tiptap",
+		"tiptap extension",
+		"tiptap majestic image"
+	],
+	"repository": {
+		"url": "https://github.com/loremru/tiptap-extension-majestic-image.git"
+	},
+	"license": "MIT",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./src/tiptapImageExtension.ts",
+			"require": "./src/tiptapImageExtension.ts"
+		}
+	},
+	"main": "src/tiptapImageExtension.ts",
+	"module": "src/tiptapImageExtension.ts",
+	"files": [
+		"src"
+	],
+	"peerDependencies": {
+		"@tiptap/core": "^2.0.0"
+	}
+}
