@@ -38,7 +38,7 @@ export default Node.create<tiptapImageOptions>({
   parseHTML() {
     return [
       {
-        tag: 'img[src data-tiptap-image]:not([src^="data:"])',
+        tag: 'img[src]:not([src^="data:"])',
       },
     ]
   },
